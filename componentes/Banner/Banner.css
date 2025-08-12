@@ -1,4 +1,4 @@
-.div-Banner{
+.div-Banner {
     width: 100%;
     height: 100vh;
     background-image: url("../../assets/fondts/fondo1.png");
@@ -7,14 +7,19 @@
 
     display: grid;
     grid-template-rows: 1fr auto auto;
+    justify-items: center; 
+    align-items: center;   
 }
-.div-Banner span{
-    grid-row: 2/3;
 
+.div-Banner span {
+    grid-row: 2 / 3;
     color: white;
-    font-size: 9rem;
+    font-size: 8rem;
     font-weight: 700;
-}
+    justify-self: center;  
+    align-self: center;   
+    }
+
 .div-Banner .aboton{
     grid-row: 3/4;
 
@@ -22,11 +27,10 @@
     color: white;
     border: 1px solid white;
    border-radius: 35px;
-    padding: 2rem 4rem;
+    padding: 2rem 8rem;
     font-size: 2rem;
 
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
